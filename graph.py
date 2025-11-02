@@ -11,7 +11,7 @@ from clarify_agent import ClarifyAgent
 from policy_agent import PolicyAgent
 from quota_agent import QuotaAgent
 from segmentation_agent import SegmentationAgent
-from saleshierarchy_agent import SalesHieararchyAgent
+from saleshierarchy_agent import SalesHierarchyAgent
 
 class AgentState(TypedDict):
     lnode: str

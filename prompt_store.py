@@ -49,7 +49,7 @@ def get_prompt(prompt_name):
         "policy": POLICY_PROMPT,
         "quota": QUOTA_PROMPT,
         "segmentation": SEGMENTATION_PROMPT,
-        "hierarchy": SALES_HIERARCHY_PROMPT,
+        "saleshierarchy": SALES_HIERARCHY_PROMPT,
     }
 
     prompt_text = prompt_mapping.get(prompt_name, f"Missing prompt: {prompt_name}")
